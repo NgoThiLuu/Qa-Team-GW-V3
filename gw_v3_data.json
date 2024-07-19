@@ -1,0 +1,27 @@
+{   
+    "id":":r5:",
+    "pass":"gw_pass",
+    "btn_login":":r4:",
+    "domain":"https://%s/groupware-v3/login",
+    "PASS" :"=>[PASS]%s",
+    "FAIL" :"=>[FAIL]%s",
+    "pop_save":"//div[starts-with(@role,'Toastify__toast-body')]/div",
+    "title" : {
+      "1":"Menu",
+      "2":"Sub Menu",
+      "3":"Test Case Name",
+      "4":"Status",
+      "5":"Description",
+      "6":"Date",
+      "7":"Tester"
+      },
+    "mail":{
+        "menu":"//h4[contains(.,'Mail')]",
+        "all_mail":"//h4[contains(.,'All Mail')]",
+        "setting" :"//span[contains(.,'Settings')]",
+        "settings":"//div[contains(text(),'Settings')]",
+        "reply_to":"//input[@id='Reply-To']",
+        "mail_to":"automationtest@vndev.hanbiro.com",
+        "setting_save":"//span[contains(.,'Save')]"
+    }
+}
